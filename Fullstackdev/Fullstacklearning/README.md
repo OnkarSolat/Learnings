@@ -81,12 +81,12 @@ Every tag displays the heading in a different style and font size.
 
 
 
-<h1>Hello GeeksforGeeks</h1> 
-<h2>Hello GeeksforGeeks</h2> 
-<h3>Hello GeeksforGeeks</h3> 
-<h4>Hello GeeksforGeeks</h4> 
-<h5>Hello GeeksforGeeks</h5> 
-<h6>Hello GeeksforGeeks</h6> 
+<h1>Hello World in different sizes</h1> 
+<h2>Hello World in different sizes</h2> 
+<h3>Hello World in different sizes</h3> 
+<h4>Hello World in different sizes</h4> 
+<h5>Hello World in different sizes</h5> 
+<h6>Hello World in different sizes</h6> 
  
  
 HTML Paragraph
