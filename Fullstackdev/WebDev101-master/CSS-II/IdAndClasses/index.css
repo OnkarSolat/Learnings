@@ -1,0 +1,21 @@
+.textSection{
+    background-color: peachpuff;
+    font-size: large;
+}
+.internalheader{
+color : tomato;
+
+}
+.same{
+    color: navy;
+}
+#notsame{
+    color : green;
+}
+section ul{
+    background-color: aliceblue;
+}
+ul{
+    background-color:white;
+    color: black;
+}

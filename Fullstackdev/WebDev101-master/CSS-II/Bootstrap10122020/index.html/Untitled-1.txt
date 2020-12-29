@@ -1,0 +1,22 @@
+
+
+arr []= 4 10 3 5 1
+
+
+
+for i=0 to n:
+    for j=0 to n:
+        if(arr[j] < arr[j+1]):
+            swap(arr[j] , arr[j+1])
+
+
+
+
+
+            Heap sort
+
+    heapify(arr,n,i);
+
+    
+
+

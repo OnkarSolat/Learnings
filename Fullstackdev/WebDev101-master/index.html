@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Let's talk More HTML</title>
+
+    <link rel="stylesheet" href="./index.css" >
+</head>
+
+<body>
+    <h1>This is a beautiful page</h1>
+    <div>
+        <p class="phoneName">Iphone</p>
+        <p class="phoneName">Another Iphone</p>
+        <p id="myIphone8">This is my iphone</p>
+        <p class="phoneName" id="myIphone9">This is my iphone 9</p>
+        <a href="#myIphone9">click iphone9</a>
+        <!-- <p class="phoneName" id="myIphone9">This is my iphone</p> -->
+        <!-- name is something which helps us with js -->
+        <form action="#" method="GET">
+            <!-- <p>Enter your name</p><br> -->
+            <label for="username">Please enter your name</label>
+            <input type="text" id="username" name="name"><br>
+            <label for="mailid">Enter your email</label>
+            <input type="email" id="mailid" name="mail"><br>
+            <label for="password">Please enter your password</label>
+            <input type="password" id="password" name="password"><br>
+
+
+            <hr>
+            <label for="red">
+                <input type="radio" class ="colorPick"id="red" name="color" value="red">Red <br>
+            </label>
+            <label for="blue">
+                <input type="radio" id="blue" class ="colorPick" name="color" value="blue">Blue <br>
+            </label>
+            <input type="radio" name="color" class ="colorPick" value="green">Green <br>
+            <input type="radio" name="color" class ="colorPick" value="orange">Orange <br>
+            <input type="radio" name="color"  class ="colorPick"value="yellow">yellow <br>
+
+
+            <hr>
+            <header id="sportsHeader">Which sports you like to watch?</header>
+            <label for="cricket" class="sports">
+                <input type="checkbox"  name="cricket" value="1" id="cricket">cricket
+            </label>
+            <br>
+            <label for="football"  class="sports">
+                <input type="checkbox"  name="football" value="2" id="football">football
+            </label>
+            <br>
+            <label for="hockey"  class="sports" id="hockeyCheckbox">
+                <input type="checkbox"   name="hockey" value="3" id="hockey">hockey
+            </label>
+
+            <hr>
+            <header id="sportsHeader">Which sports you like to least?</header>
+            <label for="ludo">
+                <input type="checkbox" name="ludo" value="1" id="ludo">ludo
+            </label>
+            <br>
+            <label for="chess">
+                <input type="checkbox" name="chess" value="2" id="chess">chess
+            </label>
+            <br>
+            <label for="golf">
+                <input type="checkbox" name="golf" value="3" id="golf">golf
+            </label>
+            <br>
+            <label for="resume">
+                Please upload resume
+                <input type="file" name="resume" id="resume">
+            </label>
+            <br>
+            <label for="avatar">
+                Upload Image here
+                <input type="file" name="avatar" id="avatar" accept="image/*" >
+            </label>
+            <br>
+            <label for="url">
+                Upload URL
+                <input type="url" name="url" id="url" >
+            </label>
+            <br>
+            <button type="submit" id="submit">Submit</button>
+            <button type="reset" id="reset" >Reset</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
