@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirstHtml</title>
+    <link rel="stylesheet" href="boxModel.css"/>
+</head>
+<body>
+   <h1>Hello</h1>
+
+
+   <script type="text/babel">
+    
+    const CharacterCount = (props)=>{
+        return (
+            <div>
+                The text has 
+                <strong>{props.text.length > 0 ? props.text.length : "No"}</strong>
+
+                characters
+                </div>
+        );
+    };
+
+    const element = (
+        <>
+            <CharacterCount text = "Hello" />
+            <CharacterCount text = ""/>
+            </>
+    );
+
+
+</script>
+   <script src="scriptBox.js"></script>
+
+</body>
+</html>
